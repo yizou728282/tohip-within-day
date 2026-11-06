@@ -1,0 +1,14 @@
+code,site,f85_pm10_p50,lat,lon,elev,class
+APP,Appalachian_State,1.7,36.2146,-81.6938,1080.0,frh
+BRW,Barrow,2.7,71.3122,-156.665,8.0,frh
+CES,Cabauw,2.4,51.971,4.927,-0.7,frh
+GRW,ARM_Graciosa,2.4,39.09109,-28.02917,15.2,frh
+GSN,Gosan_NIMS_SNU,2.0,33.3001,126.2058,52.0,frh
+HLM,Manchester_UoM,1.9,53.467374,-2.232006,94.0,frh
+HYY,Hyytiala,1.4,61.846447,24.295892,191.0,frh
+MAO,Manaus_EMBRAPA,1.3,-2.890528,-59.969778,115.0,frh
+MEL,Melpitz,2.8,51.525525,12.927601,84.0,frh
+SGP,ARM_SGP,1.9,36.605175,-97.485619,319.0,frh
+THD,Trinidad_Head,2.0,41.05392,-124.15102,105.0,frh
+UGR,Granada,1.7,37.164,-3.605,680.0,frh
+ZEP,Ny_Alesund_AWI,3.0,78.923166,11.92304,7.0,frh

@@ -1,0 +1,12 @@
+OSF registration osf.io/5vfyq date_registered 2026-11-05T14:51:32Z
+code: prereg-v2 b824d746576fb91788514d669b4ea35ef19f5d5a
+download start UTC: 2026-11-05T14:51:57Z
+hourly done UTC: 2026-11-05T15:24:17Z
+rh done UTC: 2026-11-05T15:24:21Z
+note: fetch_rh.py does not create its output dir; created confirm/rh_full manually and re-ran (no code change) at 2026-11-05T15:24:38Z
+rh done UTC: 2026-11-05T16:03:22Z
+issue: Open-Meteo HTTP 429 exhausted all 6 retries for 9 sites; frozen fetch_rh.py then wrote the previous site's series (Cape_San_Juan) to their files. Detected by content-hash check before analysis. Fix (no code change): deleted the 9 files and re-fetched each site in its own process so a failed fetch raises instead of reusing stale data. 2026-11-05T16:04:45Z
+refetch done UTC: 2026-11-05T16:10:10Z
+pre-analysis check passed (hourly RH == full RH series at all 72 sites) 2026-11-05T16:10:42Z
+analysis start UTC: 2026-11-05T16:10:42Z code b824d74
+analysis end UTC: 2026-11-05T16:14:59Z

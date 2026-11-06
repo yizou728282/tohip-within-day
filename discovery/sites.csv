@@ -1,0 +1,19 @@
+site_id,regime,lat,lon,notes
+Capo_Verde,dust,16.733,-22.935,validated AVG=20
+Banizoumbou,dust,13.541,2.665,validated
+Tamanrasset_INM,dust,22.790,5.530,validated
+Dakar,dust,14.394,-16.959,replaces Solar_Village
+Alta_Floresta,smoke,-9.871,-56.104,validated
+Rio_Branco,smoke,-9.957,-67.869,replaces Cuiaba-Miranda (all-network dump)
+Mongu_Inn,smoke,-15.254,23.151,replaces Mongu
+Ji_Parana_SE,smoke,-10.934,-61.852,replaces Abracos_Hill
+Beijing,urban,39.977,116.381,validated full period
+Kanpur,urban,26.513,80.232,validated
+GSFC,urban,38.992,-76.840,validated
+Mexico_City,urban,19.334,-99.182,validated
+Paris,urban,48.867,2.333,validated
+Ascension_Island,marine,-7.976,-14.415,validated
+Tudor_Hill,marine,32.264,-64.879,replaces Bermuda
+Ragged_Point,marine,13.165,-59.432,added marine
+American_Samoa,marine,-14.250,-170.564,added marine
+Mauna_Loa,marine,19.539,-155.578,high-altitude reference — interpret with care

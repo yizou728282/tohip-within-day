@@ -1,0 +1,76 @@
+
+===== AE: within-day slope per +10% RH; * = 95% day-cluster CI excludes 0 =====
+site              regime   days sdRHw         h_PW        mh_PW    mh_PW_AOD         hiRH         loRH PLACEBO_lag7
+Banizoumbou       dust     1925   9.2      -0.009*      -0.003       -0.000             .      -0.005       +0.001 
+Capo_Verde        dust     1582   7.8      -0.008*      -0.007*      -0.007*      -0.012       +0.004       -0.012*
+Dakar             dust     1396  10.9      +0.002       +0.000       +0.001       +0.024*      -0.001       +0.002 
+Tamanrasset_INM   dust     2488   6.2      +0.022*      -0.002       +0.001             .      -0.002       +0.008*
+American_Samoa    marine   1392   3.4      -0.004       -0.005       -0.009*      -0.006             .      -0.000 
+Ascension_Island  marine   1577   2.5      -0.012*      -0.012*      -0.012*      -0.015             .      -0.001 
+Mauna_Loa         marine   3081  12.4      -0.002       -0.001       -0.001       -0.001       +0.000       -0.002 
+Ragged_Point      marine   1987   4.2      -0.016*      -0.016*      -0.020*      -0.012       -0.055*      -0.009*
+Tudor_Hill        marine   1248   2.7      -0.029*      -0.028*      -0.027*      -0.057*      -0.020       +0.007 
+Alta_Floresta     smoke     846  12.2      +0.021*      +0.007       +0.006       -0.026       +0.010       +0.004 
+Ji_Parana_SE      smoke     925  12.3      +0.034*      +0.019*      +0.016*      +0.056*      +0.000       +0.010 
+Mongu_Inn         smoke    2217  11.3      -0.001       -0.002       -0.003       +0.066       -0.002       -0.000 
+Rio_Branco        smoke     907  12.7      +0.018*      +0.002       -0.005       +0.018       -0.015       -0.002 
+Beijing           urban     836  11.6      +0.018*      +0.017*      +0.013*            .      +0.017*      -0.003 
+GSFC              urban    2333  12.8      +0.008*      +0.010*      +0.010*      +0.013       +0.008*      -0.002 
+Kanpur            urban    2258  13.8      +0.014*      +0.003       +0.003       +0.001       -0.001       +0.002 
+Mexico_City       urban    2089  14.6      +0.011*      +0.012*      +0.009       +0.111*      +0.008       -0.005 
+Paris             urban    1507  13.7      -0.003       -0.006       -0.006       +0.011       -0.019*      +0.004 
+  mh_PW: sig-neg 4/18, sig-pos 4/18; median |slope| 0.0065
+  PLACEBO_lag7: sig-neg 2/18, sig-pos 1/18; median |slope| 0.0024
+  regime median mh_PW: {'dust': -0.0022, 'marine': -0.0116, 'smoke': 0.0046, 'urban': 0.0099}
+
+===== alpha_f: within-day slope per +10% RH; * = 95% day-cluster CI excludes 0 =====
+site              regime   days sdRHw         h_PW        mh_PW    mh_PW_AOD         hiRH         loRH PLACEBO_lag7
+Banizoumbou       dust      340   8.5      +0.010       +0.016       +0.014             .      +0.017       +0.010 
+Capo_Verde        dust     1285   8.6      +0.026*      +0.043*      +0.042*      -0.207*      +0.073*      +0.010 
+Dakar             dust     1393  10.9      -0.008       -0.012*      -0.010*      -0.033       -0.010*      -0.000 
+Tamanrasset_INM   dust     2382   6.2      -0.117*      -0.016       -0.009             .      -0.016       -0.004 
+American_Samoa    marine   1382   3.4      +0.017       +0.026*      +0.025*      +0.024*            .      +0.009 
+Ascension_Island  marine   1570   2.5      -0.010       -0.011       -0.012       -0.013             .      -0.011 
+Mauna_Loa         marine   2463  13.3      -0.000       +0.002       +0.002       -0.016*      +0.003       -0.005 
+Ragged_Point      marine   1971   4.2      +0.022*      +0.023*      +0.019*      +0.034*      +0.009       +0.022*
+Tudor_Hill        marine   1233   2.7      -0.016       -0.017       -0.017       -0.019       -0.026       -0.002 
+Alta_Floresta     smoke     843  12.2      +0.015*      +0.000       -0.002       +0.000       -0.007       +0.002 
+Ji_Parana_SE      smoke     894  12.3      +0.004       -0.013       -0.016*      -0.023       -0.017       +0.001 
+Mongu_Inn         smoke    2203  11.3      -0.040*      -0.001       -0.002       -0.003       -0.011*      +0.005 
+Rio_Branco        smoke     898  12.6      +0.011*      +0.010*      +0.006       +0.006       +0.010       -0.000 
+Beijing           urban     684  11.2      +0.009       +0.008       +0.024*            .      +0.010       +0.015*
+GSFC              urban    2332  12.8      -0.009*      -0.009*      -0.010*      -0.012       -0.001       +0.001 
+Kanpur            urban    2243  13.6      +0.006*      -0.008*      -0.007*      -0.017       -0.010*      -0.001 
+Mexico_City       urban    2066  14.6      -0.022*      -0.029*      -0.017*      +0.008       -0.032*      +0.004 
+Paris             urban    1486  13.7      -0.031*      -0.032*      -0.033*      -0.037       -0.018*      -0.001 
+  mh_PW: sig-neg 5/18, sig-pos 4/18; median |slope| 0.0124
+  PLACEBO_lag7: sig-neg 0/18, sig-pos 2/18; median |slope| 0.0041
+  regime median mh_PW: {'dust': 0.0022, 'marine': 0.0019, 'smoke': -0.0005, 'urban': -0.0091}
+
+===== FMF: within-day slope per +10% RH; * = 95% day-cluster CI excludes 0 =====
+site              regime   days sdRHw         h_PW        mh_PW    mh_PW_AOD         hiRH         loRH PLACEBO_lag7
+Banizoumbou       dust      340   8.5      -0.015*      -0.001       -0.001             .      -0.005       -0.000 
+Capo_Verde        dust     1285   8.6      -0.001       -0.003       -0.003       +0.013       -0.003       -0.003 
+Dakar             dust     1393  10.9      +0.000       -0.000       -0.000       +0.014*      -0.001       +0.001 
+Tamanrasset_INM   dust     2382   6.2      +0.022*      +0.003       +0.005*            .      +0.003       +0.002 
+American_Samoa    marine   1382   3.4      -0.003       -0.004       -0.006*      -0.005             .      -0.002 
+Ascension_Island  marine   1570   2.5      -0.005       -0.004       -0.004       -0.003             .      -0.000 
+Mauna_Loa         marine   2463  13.3      -0.004*      -0.005*      -0.005*      -0.009*      -0.004*      -0.002 
+Ragged_Point      marine   1971   4.2      +0.000       -0.000       -0.002       +0.002       -0.023*      -0.002 
+Tudor_Hill        marine   1233   2.7      -0.007       -0.007       -0.006       -0.022       +0.001       +0.004 
+Alta_Floresta     smoke     843  12.2      +0.008*      +0.003       +0.002       -0.011       +0.005       +0.002 
+Ji_Parana_SE      smoke     894  12.3      +0.012*      +0.007*      +0.006       +0.019*      +0.001       +0.002 
+Mongu_Inn         smoke    2203  11.3      +0.005*      -0.000       -0.000       +0.013       +0.001       -0.000 
+Rio_Branco        smoke     898  12.6      +0.005       -0.001       -0.002       +0.008       -0.008       -0.001 
+Beijing           urban     684  11.2      +0.007*      +0.007       +0.002             .      +0.006       -0.004 
+GSFC              urban    2332  12.8      +0.005*      +0.005*      +0.005*      +0.007       +0.003*      -0.001 
+Kanpur            urban    2243  13.6      +0.006*      +0.003       +0.003*      +0.005       +0.003*      +0.001 
+Mexico_City       urban    2066  14.6      +0.010*      +0.012*      +0.008*      +0.042*      +0.011*      -0.003 
+Paris             urban    1486  13.7      +0.005       +0.004       +0.004       +0.012       -0.005       +0.002 
+  mh_PW: sig-neg 1/18, sig-pos 3/18; median |slope| 0.0036
+  PLACEBO_lag7: sig-neg 0/18, sig-pos 0/18; median |slope| 0.0020
+  regime median mh_PW: {'dust': -0.0005, 'marine': -0.0042, 'smoke': 0.0014, 'urban': 0.0052}
+
+median within-day corr(RH dev, RH_lag7 dev): 0.811
+
+[exited with code 0]
